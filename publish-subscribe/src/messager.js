@@ -1,3 +1,5 @@
+import pubsub from './pubsub';
+// const pubsub = require('./pubsub');
 function messager(topic, data) {
   console.log(`${topic}: ${data}`);
 }
